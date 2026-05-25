@@ -7,4 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello step
-        run: echo "Welcome Bro"
+        run: |
+         echo "Welcome Bro"
+         echo "Welcome Bro"
+         echo "Welcome Bro"
+
+
