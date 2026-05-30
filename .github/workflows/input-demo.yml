@@ -6,7 +6,11 @@ on:
         description: Choose the environment to deploy
         required: true
         default: dev
-
+        type: choice
+        options:
+          - dev
+          - test
+          - prod
 jobs:
   inputs-demo:
     runs-on: ubuntu-latest
